@@ -1,0 +1,74 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free Chunk VPN"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="con nuevos cambios y mejoras para usted"
+        android:id="@+id/textView1"
+        android:textAlignment="center"
+        android:padding="5sp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="265.0dp"
+        android:src="@drawable/bg"
+        android:layout_gravity="center"
+        android:id="@+id/imageView1"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <ProgressBar
+            android:id="@+id/progressInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        style="@android:style/Animation"/>
+
+        <TextView
+            android:id="@+id/loadingInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conectado Al Servidor..."
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="15dp"/>
+        
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@Copyrigth ObisoftDev-JosPC98 All right reserved"
+        android:textAlignment="center"
+            android:padding="5dp"
+        android:fontFamily="serif"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
